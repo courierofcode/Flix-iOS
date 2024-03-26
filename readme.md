@@ -1,47 +1,72 @@
-# Flix
+<p align="center">
+    <a href="" rel="noopener">
+    <img width=100px height=100px src="assets/movie_flicks.svg" alt="Project Logo"></a>
+</p>
+
+<h3 align="center">Flix-iOS</h3>
+
+<div align="center">
+
+[![Status](https://img.shields.io/badge/status-active-success.svg?style=for-the-badge)](https://github.com/courierofcode/Flix-iOS/)
+[![GitHub Issues](https://img.shields.io/github/issues/courierofcode/Flix-iOS.svg?style=for-the-badge)](https://github.com/courierofcode/Templates/issues)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/courierofcode/Flix-iOS/blob/main/LICENSE)
+
+</div>
+
+## 📝 Table of Contents
+
+- [📝 Table of Contents](#-table-of-contents)
+- [🧐 About ](#-about-)
+- [🏁 Getting Started ](#-getting-started-)
+- [🎈 Usage ](#-usage-)
+- [🚀 Deployment ](#-deployment-)
+- [⛏️ Built Using ](#️-built-using-)
+
+## 🧐 About <a name = "about"></a>
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-## Flix Part 1
+This is a layout of the design process including user stories, features, and requirements of the application.
 
-### User Stories
+#### Features
 
-#### REQUIRED (10pts)
-- [x] (2pts) User sees an app icon on the home screen and a styled launch screen.
-- [x] (5pts) User can view and scroll through a list of movies now playing in theaters.
-- [x] (3pts) User can view the movie poster image for each movie.
+- [x] User can view and scroll through a list of movies now playing in theaters with their movie posters.
+- [x] User can view the app on various device sizes and orientations.
+- [x] User can tap a cell to see more details about a particular movie.
+- [x] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+- [x] User can tap a poster in the collection view to see a detail screen of that movie.
+- [x] In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+- [x] App tested in simulator and on a real device.
 
-#### BONUS
-- [x] (2pt) User can view the app on various device sizes and orientations.
-- [x] (1pt) Run your app on a real device.
+#### Concept (Mockups)
 
-### App Walkthrough GIF
-<img src='https://imgur.com/dQfyK5L.gif' width='450'><br>
+<p align="center">
+    <a href="" rel="noopener">
+    <img width=200px height=200px src="" alt="Project mockup"></a>
+</p>
 
-### Notes
-Describe any challenges encountered while building the app.
-- The most challenge faced was fixing the depreciated method which didn't take long to resolve.
+#### App Demo
 
----
+<p align="center">
+    <a href="" rel="noopener">
+    <img width=150px height=280px src="assets/app_demo.gif" alt="Project mockup"></a>
+</p>
 
-## Flix Part 2
+## 🎈 Usage <a name="usage"></a>
 
-### User Stories
+These instructions will get a copy of the project up and running on your local machine for development and testing purposes.
 
-#### REQUIRED (10pts)
-- [x] (5pts) User can tap a cell to see more details about a particular movie.
-- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+- Install Xcode on MacOS.
+- Clone the src to your environment.
+- Debug by connecting your devices.
 
-#### BONUS
-- [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
-- [x] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+## 🚀 Deployment <a name = "deployment"></a>
 
-### App Walkthrough GIF
-<img src=' ' width='450'><br>
+- Source Hosted by GitHub
+- Requires an iOS device & MacOS with Xcode
 
-### Notes
-Describe any challenges encountered while building the app.
-The challenge I encountered was when the collectionView in storyboard was not creating outlets under the MovieGridViewController, which was resolved after reaching out for help on the CodePath Slack where I found out that I needed to give the MovieGridController class name to the Controller in storyboard.
+## ⛏️ Built Using <a name = "built_using"></a>
 
+[<img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Swift_logo.svg" width=60 height=30 alt="Android">](https://www.swift.org/documentation/)
